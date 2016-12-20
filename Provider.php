@@ -132,5 +132,4 @@ class Provider extends AbstractProvider implements ProviderInterface
     {
         return ['auth_base_uri'];
     }
-
 }

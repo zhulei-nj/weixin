@@ -8,6 +8,7 @@ class WeixinExtendSocialite
 {
     /**
      * Register the provider.
+     *
      * @param \zhulei\Manager\SocialiteWasCalled $socialiteWasCalled
      */
     public function handle(SocialiteWasCalled $socialiteWasCalled)
