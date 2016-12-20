@@ -1,14 +1,14 @@
 <?php
 
-namespace SocialiteProviders\Weixin;
+namespace zhulei\Weixin;
 
-use SocialiteProviders\Manager\SocialiteWasCalled;
+use zhulei\Manager\SocialiteWasCalled;
 
 class WeixinExtendSocialite
 {
     /**
      * Register the provider.
-     * @param \SocialiteProviders\Manager\SocialiteWasCalled $socialiteWasCalled
+     * @param \zhulei\Manager\SocialiteWasCalled $socialiteWasCalled
      */
     public function handle(SocialiteWasCalled $socialiteWasCalled)
     {

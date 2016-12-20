@@ -8,11 +8,11 @@
     }],
     "require": {
         "php": "^5.6 || ^7.0",
-        "socialiteproviders/manager": "~2.1"
+        "zhulei-nj/manager": "~2.1"
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\Weixin\\": "src/"
+            "zhulei\\Weixin\\": "src/"
         }
     }
 
